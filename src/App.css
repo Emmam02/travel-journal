@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: bold;
+}
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* NAV */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+  color: #fff;
+}
+.nav-title {
+  font-weight: 500;
+  font-size: 30px;
+  margin-left: 20px;
+}
+.nav-icon {
+  width: 36px;
+}
+
+/* CARD */
+.card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.card-container {
+  margin-top: 80px;
+  display: flex;
+}
+
+.card-img {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+}
+.card-info {
+  width: 600px;
+  margin-left: 50px;
+}
+.card-location-div {
+  width: 400px;
+}
+
+.card-location-Icon {
+  width: 12px;
+  margin-right: 10px;
+}
+
+.card-map-url {
+  margin-left: 10px;
+  color: #918e9b;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.card-description {
+  line-height: 1.8;
+}

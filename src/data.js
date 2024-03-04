@@ -1,3 +1,8 @@
+import spotted_lake from "./assets/spotted-lake.png";
+import danakil from "./assets/danakil.png";
+import peru from "./assets/peru.png";
+import bolivia from "./assets/bolivia.png";
+
 export default [
   {
     title: "Spotted Lake",
@@ -8,7 +13,7 @@ export default [
     endDate: "19 Sep, 1998",
     description:
       "Spotted Lake is a small body of water that is packed with  different minerals, from masses of calcium and sodium sulphates to small amounts of silver and titanium. When the water evaporates in summer, a weird collection of deposits is left behind, giving the Spotted Lake its moniker",
-    imageUrl: "src/assets/spotted-lake.png",
+    imageUrl: spotted_lake,
   },
   {
     title: "Danakil Depression",
@@ -19,7 +24,7 @@ export default [
     endDate: "8 Feb, 1995",
     description:
       "The Danakil Depression in Ethiopia is a weirder-than-weird piece of wonder that is the result of three tectonic plates diverging and leaving behind lava lakes, acidic springs and more. It is known as the ‘hottest place on the planet’, and that is no joke. Geothermal activity in summer causes temperates to reach as high as 55 degrees celsius.",
-    imageUrl: "src/assets/danakil.png",
+    imageUrl: danakil,
   },
   {
     title: "Vinicunca",
@@ -30,7 +35,7 @@ export default [
     endDate: "10 Jul, 2010",
     description:
       "Vinicunca’s unique multi-coloured marble look is the result of sedimentary deposits over the centuries, and the whole thing makes for a truly remarkable hike. It takes around four hours to scale the mountain, depending on how often you stop to marvel at how you’re actually climbing a rainbow mountain. ",
-    imageUrl: "src/assets/peru.png",
+    imageUrl: peru,
   },
   {
     title: "Uyuni Salt Flat",
@@ -41,6 +46,6 @@ export default [
     endDate: "30 Aug, 2015",
     description:
       "Human beings couldn’t survive without salt. The most important of all seasonings is responsible for a heck of a lot more than people realise, so there’s an extra special joy to the Uyuni Salt Flat. Of course, nobody really comes here to ponder the importance of salt. They come to see something truly incredible: nearly 11,000 square kilometres of flat land that is simultaneously otherworldly and very much of this place.",
-    imageUrl: "src/assets/bolivia.png",
+    imageUrl: bolivia,
   },
 ];

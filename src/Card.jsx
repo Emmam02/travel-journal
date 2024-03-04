@@ -3,7 +3,7 @@ import location_pin from "./assets/Fill-219.png";
 const Card = (props) => {
   return (
     <section className="card-container">
-      <img src={`/${props.imageUrl}`} alt={props.title} className="card-img" />
+      <img src={props.imageUrl} alt={props.title} className="card-img" />
       <div className="card-info">
         <div className="card-location-div">
           <p>

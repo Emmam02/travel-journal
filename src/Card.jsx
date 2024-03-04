@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import location_pin from "./assets/Fill-219.png";
 const Card = (props) => {
   return (
     <section className="card-container">
@@ -6,7 +7,7 @@ const Card = (props) => {
       <div className="card-info">
         <div className="card-location-div">
           <p>
-            <img src="src/assets/Fill-219.png" className="card-location-Icon" />
+            <img src={location_pin} className="card-location-Icon" />
             <span className="uppercase">{props.location}</span>
             <a href={props.googleMapsUrl} className="card-map-url">
               View On Google Maps

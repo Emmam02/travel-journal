@@ -30,7 +30,7 @@ export default [
     endDate: "10 Jul, 2010",
     description:
       "Vinicunca’s unique multi-coloured marble look is the result of sedimentary deposits over the centuries, and the whole thing makes for a truly remarkable hike. It takes around four hours to scale the mountain, depending on how often you stop to marvel at how you’re actually climbing a rainbow mountain. ",
-    imageUrl: "src/assets/spotted-lake.png",
+    imageUrl: "src/assets/peru.png",
   },
   {
     title: "Uyuni Salt Flat",
